@@ -42,17 +42,6 @@ source rag_env/bin/activate # On Windows: .\rag_env\Scripts\activate
 
 ### 5. Prepare Your Documents
 Create a folder named data/ in the root directory of your project.Place your .txt and .pdf documents that you want the chatbot to answer questions from into this data/ folder.
-Example:
-Q-AChatbot/
-├── .env
-├── data/
-│   ├── my_notes_on_ai.txt
-│   └── project_manual.pdf
-└──  templates
-│   └── index.html
-└──   app.py  # main Python script
-
-
 
 ## Usage
 Run the script: python app.py
